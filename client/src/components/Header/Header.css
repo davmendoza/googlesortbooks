@@ -5,7 +5,7 @@
   
   .header {
     padding: 30px 0 30px 0;
-    background: navy;
+    background: #343a40;
     color: white;
     text-align:center;
   }
@@ -15,3 +15,13 @@
     margin-left:15px;
     font-weight: 300;
   }
+
+
+select {
+  background-color: #343a40;
+  color: #fff;
+  height: 32px;
+  width: 70px;
+  position: relative;
+  top: -2px;
+}

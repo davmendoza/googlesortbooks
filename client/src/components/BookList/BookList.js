@@ -1,5 +1,6 @@
 import React from "react";
 import BookCard from '../BookCard/BookCard';
+import './BookList.css';
 
 
 const BookList = (props) => {

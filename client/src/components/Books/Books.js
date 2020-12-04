@@ -9,7 +9,8 @@ class Books extends Component {
     super(props);
     this.state = {
       books: [],
-      searchField: ''
+      searchField: '',
+      sort: ''
     }
   }
 
@@ -28,10 +29,14 @@ class Books extends Component {
     this.setState({ searchField: e.target.value })
   }
 
+  handleSort = (e) => {
+    this.setState({ sort: e.target.value })
+  }
+
   render() {
     return (
       <div>
-        <SearchArea searchBook={this.searchBook} handleSearch={this.handleSearch} />
+        <SearchArea searchBook={this.searchBook} handleSearch={this.handleSearch} handleSort={this.handleSort} />
         <BookList books={this.state.books}/>
       </div>
     );

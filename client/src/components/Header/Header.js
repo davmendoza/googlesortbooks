@@ -4,8 +4,8 @@ import './Header.css';
 const Header = () => {
     return(
         <header className="header">
-            <i className="fas fa-book"></i>
-            <h1 className="header__h1">Book Cards</h1>
+            
+            <h1 className="header__h1">Books Search</h1>
 
         </header>
     )

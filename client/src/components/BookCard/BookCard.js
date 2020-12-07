@@ -8,6 +8,7 @@ const BookCard = (props) => {
     <div className="card bg-dark text-white">
       <img src={props.image} alt="" />
       <div className="card bg-dark text-white">
+        <button>Add To List</button>
         <h2>{props.title}</h2>
         <br/>
         <h3>Author: {props.author}</h3>

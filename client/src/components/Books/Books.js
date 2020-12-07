@@ -45,6 +45,9 @@ class Books extends Component {
       else if(book.volumeInfo.hasOwnProperty('imageLinks') === false) {
         book.volumeInfo['imageLinks'] = {thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/480px-No_image_available.svg.png" }
       }
+      else if (book.volumeInfo.hasOwnProperty('description') === false) {
+        book.volumeInfo['description'] ='n/a';
+      }
 
       return book;
     })

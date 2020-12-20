@@ -1,10 +1,21 @@
 .search-area form {
-    width: 500px;
+    
     margin: 0 auto;
     padding: 20px 0px 20px 140px;
+    align-items: center;
 }
 
 .search-area button {
+    display: inline;
+    background: #343a40;
+    color: #fff;
+    border: none;
+    padding: 8px 13px 10px 13px;
+    margin: 0 15px 0 0;
+    position: relative;
+    top: -2px;
+}
+.savedbtn {
     display: inline;
     background: #343a40;
     color: #fff;
